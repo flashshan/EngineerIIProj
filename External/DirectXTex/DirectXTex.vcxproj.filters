@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="ExternalLibraries.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="151\BC.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="151\DDS.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="151\DirectXTex.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="151\DirectXTexP.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="151\Filters.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="151\scoped.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{0ae77441-b97d-41ff-8464-4f7f3caae94b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="151\BC.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\BC4BC5.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\BC6HBC7.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexCompress.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexConvert.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexD3D11.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexDDS.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexFlipRotate.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexImage.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexMipmaps.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexResize.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexTGA.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexUtil.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="151\DirectXTexWIC.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="151\DirectXTex.inl">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="License.txt" />
+  </ItemGroup>
+</Project>
